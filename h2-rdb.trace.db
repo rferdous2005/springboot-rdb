@@ -1,0 +1,20 @@
+2023-06-25 14:00:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEE" not found (this database is empty); SQL statement:
+insert into employee (cell_no,created_at,email,first_name,last_name,salary_month,updated_at,id) values (?,localtimestamp,?,?,?,?,localtimestamp,default) [42104-214]
+2023-06-25 14:07:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEE" not found (this database is empty); SQL statement:
+insert into employee (cell_no,created_at,email,first_name,last_name,salary_month,updated_at,id) values (?,localtimestamp,?,?,?,?,localtimestamp,default) [42104-214]
+2023-06-25 14:16:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEE" not found (this database is empty); SQL statement:
+insert into employee (cell_no,created_at,email,first_name,last_name,salary_month,updated_at,id) values (?,localtimestamp,?,?,?,?,localtimestamp,default) [42104-214]
+2023-06-25 14:21:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-06-25 14:26:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-06-25 15:34:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-06-25 15:57:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-06-25 16:27:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT @[*]@character_set_database, @@sql_mode"; expected "identifier"; SQL statement:
+SELECT @@character_set_database, @@sql_mode [42001-214]

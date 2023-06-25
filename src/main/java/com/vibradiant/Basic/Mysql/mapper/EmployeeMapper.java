@@ -18,5 +18,5 @@ public interface EmployeeMapper {
 //    @Mapping(target = "cellNo", source = "mobile")
 //    @Mapping(target = "createdAt", source = "joinedOn")
     @InheritInverseConfiguration
-    EmployeeEntity maptoEntity(Employee employee);
+    EmployeeEntity mapToEntity(Employee employee);
 }

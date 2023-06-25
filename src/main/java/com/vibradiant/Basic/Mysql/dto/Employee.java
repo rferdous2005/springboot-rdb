@@ -18,7 +18,6 @@ public class Employee {
     private Long id;
     @NotEmpty
     @Size(min=3, max=20, message = "first name must be 3-20 chars")
-    
     private String firstName;
     @NotEmpty
     @Size(min=3, max=20, message = "last name must be 3-20 chars")
